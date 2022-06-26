@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style type="text/css">
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  text-align: center;
+  height: 50px;
+  /*padding: 10px 16px;*/
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.vertical-scrollable{
+  height:500px;
+  overflow-y: scroll;
+}
+.status{
+    text-align: center;
+}
+	</style>
+</head>
+<body>
+    <div class = "container">
+        <div class ="row">
+            <div class="col-1 ">
+                <div class="container-2">
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <button type="button"class="btn btn-info btn-circle btn-lg" onclick="status.html"><span>1</span></button>
+                            <div class="d-flex" style="height: 250px;">
+                                <div class="vr"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <button type="button"class="btn btn-info btn-circle btn-lg" onclick="onboard.html"><span>2</span></button>
+                            <div class="d-flex" style="height: 250px;">
+                                <div class="vr"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <button type="button"class="btn btn-info btn-circle btn-lg" onclick="fund.html"><span>3</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-11"style="height: 500px;">
+                                 <div class="dropdown show">
+                                        <button class="btn btn-info dropdown-toggle btn-lg" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Apply for grants
+                                          </button>
+                                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdQG1zC8RMLFuX-uTaG4gyTb08h_yNt4rk7QS7rhPbCjGm2iQ/closedform">TIDE Support</a>
+                                            <a class="dropdown-item" href="https://gusecindia.typeform.com/to/vRjjNeFu?typeform-source=gusec.edu.in">GUSEC Seed</a>
+                                            <a class="dropdown-item" href="https://startup.gujarat.gov.in/home">Startup Gujarat Grant</a>
+                                          </div>
+                                        </div>
+                                        <br>
+                                        <div class="dropdown show">
+                                            <button class="btn btn-info dropdown-toggle btn-lg" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Request for resources
+                                              </button>
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                                <a class="dropdown-item">Conference Hall</a>
+                                                <a class="dropdown-item">Google credits</a>
+                                                <a class="dropdown-item">Amazon credits</a>
+                                                <a class="dropdown-item">Mentor guidance</a>
+                                                <a class="dropdown-item" href="https://startup.gujarat.gov.in/home">Startup Gujarat Grant</a>
+                                              </div>
+                                        </div>
+                                        <br>
+                                        <div class="meetapply">
+                                            <h4>Schedule a meeting</h4>
+                                            <form>
+                                                <div class="apply form-group">
+                                                  <label for="applyform1">Startup name</label>
+                                                  <input type="text" class="form-control" id="applyimputform1" placeholder="Enter details">
+                                                </div>
+                                                <div class="apply form-group">
+                                                  <label for="applyform2">Select GUSEC Team Member</label>
+                                                  <input type="text" class="form-control" id="applyinputform2" placeholder="Enter details">
+                                                </div>
+                                                <div class="apply form-group">
+                                                    <label for="applyform2">Date</label>
+                                                    <input type="date" class="form-control" id="applyinputform3" placeholder="Enter details">
+                                                </div>
+                                                <div class="apply form-group">
+                                                    <label for="applyform2">Time</label>
+                                                    <input type="time" class="form-control" id="applyinputform4" placeholder="Enter details">
+                                                </div>
+                                                <div class="apply form-group">
+                                                    <label for="applyform2">Venue</label>
+                                                    <input type="text" class="form-control" id="applyinputform5" placeholder="Enter details">
+                                                </div>
+                                                <div class="apply form-group">
+                                                    <label for="applyform2">Remarks</label>
+                                                    <input type="text" class="form-control" id="applyinputform6" placeholder="Enter details">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

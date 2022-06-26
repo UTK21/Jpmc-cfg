@@ -1,0 +1,9 @@
+.vertical-scrollable{
+    height:500px;
+    overflow-y: scroll;
+  }
+
+.admintable
+{
+    height: 600px;
+}

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+/* body {
+  margin: 0;
+} */
+
+.OnboardSection {
+  background-color: azure;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  background-position: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.OnBoardContainer {
+  background-color: white;
+  height: fit-content;
+  padding: 50px 80px;
+  margin: 50px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.OnBoardContainer h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 3.2rem;
+  margin: 0;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+.OnBoardContainer form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.inputwraps {
+  margin: 10px 0;
+}
+
+.cols {
+  display: flex;
+  flex-direction: column;
+}
+
+.mt_8 {
+  margin-top: 8px;
+}
+
+input,
+select {
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+.OnBoardContainer .bolds {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.OnBoardContainer textarea {
+  width: 100%;
+}
+
+.OnBoardContainer button {
+  margin-top: 50px;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  max-width: 400px;
+}
+
+.OnBoardContainer button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.OnBoardContainer label:hover,
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .OnBoardContainer h1 {
+    font-size: 2rem;
+  }
+}

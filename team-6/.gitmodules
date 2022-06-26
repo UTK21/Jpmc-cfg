@@ -1,0 +1,3 @@
+[submodule "android/cfg22-team6-android"]
+	path = android/cfg22-team6-android
+	url = https://github.com/rudra2901/cfg22-team6-android.git

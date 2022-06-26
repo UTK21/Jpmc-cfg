@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style type="text/css">
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  text-align: center;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.vertical-scrollable{
+  height:500px;
+  overflow-y: scroll;
+}
+.status{
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+    <div class = "container">
+        <div class ="row">
+            <div class="col-1 ">
+                <div class="container-2">
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <button type="button"class="btn btn-info btn-circle btn-lg" onclick="status.html"><span>1</span></button>
+                        </div>
+                        <div class="col border-left">
+                            <div class="vertical-divider" style="height: 250px; border-color: black;"></div>
+                        </div>
+                        <div class="col">
+                            <button type="button"class="btn btn-info btn-circle btn-lg" onclick="onboard.html"><span>2</span></button>
+                        </div>
+                        <div class="col border-left">
+                            <div class="vertical-divider" style="height: 250px; border-color: black;"></div>
+                        </div>
+                        <div class="col">
+                            <button type="button"class="btn btn-info btn-circle btn-lg" onclick="fund.html"><span>3</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-11 vertical-scrollable" style="height: 655px;">
+                <form>
+                    <div class="form-group">
+                      <label for="form1">Information about startup and team info</label>
+                      <input type="text" class="form-control" id="imputform1" placeholder="Enter details">
+                    </div>
+                    <div class="form-group">
+                      <label for="form2">Founder Name</label>
+                      <input type="text" class="form-control" id="inputform2" placeholder="Founder name">
+                    </div>
+                    <div class="form-group">
+                        <label for="form3">Co-founders</label>
+                        <input type="text" class="form-control" id="inputform3" placeholder="Co-founder name">
+                      </div>
+                    <div class="form-group">
+                        <label for="form4">Number of team members</label>
+                        <input type="text" class="form-control" id="inputform4">
+                    </div>
+                    <div class="form-group">
+                        <label for="form5">Type of incorporation</label>
+                        <input type="text" class="form-control" id="inputform5">
+                    </div>
+                    <div class="form-group">
+                        <label for="form6">Name of the legal entity</label>
+                        <input type="text" class="form-control" id="inputform6">
+                    </div>
+                    <div class="form-group">
+                        <label for="form7">Directors/Partners</label>
+                        <input type="text" class="form-control" id="inputform7">
+                    </div>
+                    <div class="form-group">
+                        <label for="form8">Funding Status</label>
+                        <input type="text" class="form-control" id="inputform8">
+                    </div>
+                    <div class="form-group">
+                        <label for="form9">Funding Requirements</label>
+                        <input type="text" class="form-control" id="inputform9">
+                    </div>
+                    <div class="form-group">
+                        <label for="form10">Registered address</label>
+                        <input type="text" class="form-control" id="inputform10">
+                    </div>
+                    <div class="form-group">
+                        <label for="form11">Website</label>
+                        <input type="text" class="form-control" id="inputform11">
+                    </div>
+                    <div class="form-group">
+                        <label for="form12">Social media links</label>
+                        <input type="text" class="form-control" id="inputform12">
+                    </div>
+                    <div class="form-group">
+                        <label for="form13">Residential address of the founder</label>
+                        <input type="text" class="form-control" id="inputform13">
+                    </div>
+                    <div class="form-group">
+                        <label for="form14">Founder's contact number</label>
+                        <input type="number" class="form-control" id="inputform14">
+                    </div>
+                    <div class="form-group">
+                        <label for="form15">Founder's email address</label>
+                        <input type="email" class="form-control" id="inputform15">
+                    </div>
+                    <div class="form-group">
+                        <label for="form16">Secondary contact number</label>
+                        <input type="number" class="form-control" id="inputform16">
+                    </div>
+                    <div class="form-group">
+                        <label for="form17">PAN</label>
+                        <input type="text" class="form-control" id="inputform17">
+                    </div>
+                    <div class="form-group">
+                        <label for="form18">Name of bank</label>
+                        <input type="text" class="form-control" id="inputform18">
+                    </div>
+                    <div class="form-group">
+                        <label for="form19">Bank account number</label>
+                        <input type="text" class="form-control" id="inputform19">
+                    </div>
+                    <div class="form-group">
+                        <label for="form20">ISFC code</label>
+                        <input type="text" class="form-control" id="inputform20">
+                    </div>
+                    <div class="form-group">
+                        <label for="form21">Faxilities required</label>
+                        <input type="text" class="form-control" id="inputform21">
+                    </div>
+                    <div class="form-group">
+                        <label for="form22">Frequency of utility</label>
+                        <input type="text" class="form-control" id="inputform22">
+                    </div>
+                    <div class="submit">
+                    <button type="submit" class="btn btn-info">Submit</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
